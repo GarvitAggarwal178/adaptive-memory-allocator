@@ -1,7 +1,5 @@
 # Adaptive memory allocation: CS4 case study
 
-Operating Systems case study CS4, VIT Vellore.
-
 **Question.** Can an allocator that switches between First Fit and Best Fit,
 based on the current state of the free list, reduce fragmentation and
 allocation failures compared with the four standard fit strategies?
@@ -81,9 +79,3 @@ make demo                                  # prints the worked example
 Traces are generated from fixed seeds, so the pilot and final stages
 reproduce the same traces and the same allocation decisions on any machine.
 Only the timing columns change.
-
-## AI assistance
-
-The code and scripts in this repository were written with help from AI coding
-assistants. All results come from running this code; the team reviewed it and
-takes responsibility for it.
