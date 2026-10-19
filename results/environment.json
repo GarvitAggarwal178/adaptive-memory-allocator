@@ -1,0 +1,13 @@
+{
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43",
+  "cpu": "13th Gen Intel(R) Core(TM) i5-13450HX",
+  "logical_cpus": 16,
+  "compiler": "gcc (Ubuntu 15.2.0-16ubuntu1) 15.2.0",
+  "cflags": "-std=c11 -O2 -Wall -Wextra -Werror -pedantic",
+  "python": "3.14.4",
+  "numpy": "2.3.5",
+  "timer": "clock_gettime(CLOCK_MONOTONIC), two reads per timed call",
+  "empty_interval_median_ns": 14.0,
+  "empty_interval_p99_ns": 16,
+  "samples": 100000
+}

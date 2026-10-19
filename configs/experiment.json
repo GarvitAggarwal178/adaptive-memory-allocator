@@ -1,0 +1,64 @@
+{
+  "frozen_at_utc": "2026-10-18T13:16:59+00:00",
+  "M": 16384,
+  "loads": [
+    0.6,
+    0.8,
+    0.95
+  ],
+  "theta": 0.7,
+  "phi": 0.2,
+  "hysteresis": false,
+  "W": 50,
+  "N": 10000,
+  "warmup": 1000,
+  "pilot_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "final_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120
+  ],
+  "pilot_mean_holes_FF": {
+    "4096": 16.2238888889,
+    "16384": 64.43331111112
+  },
+  "top_load_adjusted": false,
+  "chosen_setting": {
+    "theta": 0.7,
+    "phi": 0.2,
+    "qualifies": true,
+    "mean_frag": 0.015281481481476665,
+    "mean_probes": 47.93655555555334,
+    "switches_per_100_windows": 5.623836126629422
+  },
+  "source_sha256": {
+    "src/allocator.c": "f91d6fc9d5f6f70ca3e4586c26e0c748acafa5f17c51a30b7aab433c3572ffd4",
+    "src/allocator.h": "d23b6852faaf18415b5e6100491a8873bcc11babb7ecf2d04825143036e1b1c6",
+    "src/check.h": "54f89c10b854cc19d572334e6f234a11ec175a4a5eb5b086f45b47a924469c5b",
+    "src/simulator.c": "6c5151134761a1a426cf88a2b86c2c2a2c8681aa074c9cf23f77eba556419b22",
+    "scripts/workload.py": "721aaa1e2d56579b2056b93551348f90770988846dfbfb88633655fdf4f6d3c0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "trace_id": "load95_16mb_seed103",
+  "M": 16384,
+  "rho_target": 0.95,
+  "seed": 103,
+  "arrivals": 10000,
+  "warmup": 1000,
+  "expected_size": 95.44999999999999,
+  "exponential_scale": 162.56757464641174,
+  "realized_mean_size": 95.5774,
+  "realized_mean_lifetime": 161.0854,
+  "realized_offered_load": 0.9446574584960937,
+  "within_2_percent_of_target": true,
+  "trace_sha256": "9499505118d9c489c9d68c4b3b90b4a5cb92040ff89679e24ee7087cc2236833"
+}
